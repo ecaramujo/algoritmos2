@@ -8,7 +8,7 @@ class Pessoa:
     def imprimeNome(self):
         print(f"O nome desta pessoa é {self.nome}.")
 
-    def imprimeTelefone(self):
+    def __imprimeTelefone(self):
         print(f"O telefone desta pessoa é {self.__telefone}.")
 
 
